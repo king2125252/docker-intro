@@ -14,7 +14,6 @@ COPY dist .
 # 使用apt-get下載套件
 RUN apt-get update && apt-get install -y \
   vim \
-  nginx \
   curl
 
 # 安裝 Node.js 24
